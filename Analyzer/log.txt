@@ -1,0 +1,7 @@
+GET /users 200 123ms
+POST /login 500 88ms
+GET /inventory 200 150ms
+POST /login 200 95ms
+GET /users 200 110ms
+PUT /cart 201 134ms
+DELETE /cart/42 204 99ms
