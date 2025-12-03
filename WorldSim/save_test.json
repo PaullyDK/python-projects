@@ -1,0 +1,110 @@
+{
+  "destroyed_entities": 0,
+  "num_events": 5,
+  "tick": 10,
+  "next_id": 3,
+  "entities": {
+    "1": {
+      "type": "NPC",
+      "x": 10,
+      "y": 5,
+      "health": 100,
+      "props": {}
+    },
+    "2": {
+      "type": "Drone",
+      "x": 2,
+      "y": 2,
+      "health": 40,
+      "props": {}
+    }
+  },
+  "event_queue": {
+    "0": [
+      {
+        "event_type": "move",
+        "entity_id": 1,
+        "data": {
+          "dx": 1,
+          "dy": 0
+        }
+      }
+    ],
+    "1": [
+      {
+        "event_type": "move",
+        "entity_id": 1,
+        "data": {
+          "dx": 1,
+          "dy": 0
+        }
+      }
+    ],
+    "2": [
+      {
+        "event_type": "move",
+        "entity_id": 1,
+        "data": {
+          "dx": 1,
+          "dy": 0
+        }
+      }
+    ],
+    "3": [
+      {
+        "event_type": "move",
+        "entity_id": 1,
+        "data": {
+          "dx": 1,
+          "dy": 0
+        }
+      }
+    ],
+    "4": [
+      {
+        "event_type": "move",
+        "entity_id": 1,
+        "data": {
+          "dx": 1,
+          "dy": 0
+        }
+      }
+    ],
+    "11": [
+      {
+        "event_type": "damage",
+        "entity_id": 2,
+        "data": {
+          "amount": 10
+        }
+      }
+    ],
+    "12": [
+      {
+        "event_type": "damage",
+        "entity_id": 2,
+        "data": {
+          "amount": 10
+        }
+      }
+    ],
+    "13": [
+      {
+        "event_type": "damage",
+        "entity_id": 2,
+        "data": {
+          "amount": 10
+        }
+      }
+    ],
+    "14": [
+      {
+        "event_type": "damage",
+        "entity_id": 2,
+        "data": {
+          "amount": 10
+        }
+      }
+    ]
+  }
+}
